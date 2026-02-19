@@ -16,6 +16,7 @@ def test_train_smoke(tmp_path):
 
 
 def test_train_model_loadable(tmp_path):
+    """Trained model pickle should contain model and feature_names keys."""
     model_path = tmp_path / "model.pkl"
     train(data_path=None, model_path=model_path, seed=1)
     with open(model_path, "rb") as f:

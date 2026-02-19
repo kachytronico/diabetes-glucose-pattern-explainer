@@ -80,7 +80,7 @@ Actual metrics from the most recent training run are saved to `models/metrics.js
 2. Feature importances are correlational, not causal.
 3. Gradient boosting cannot extrapolate beyond training distribution.
 4. No personalisation — the model represents a single synthetic "average" patient.
-5. No handling of CGM sensor artifacts, compression artefacts, or calibration errors.
+5. No handling of CGM sensor artifacts, compression artifacts, or calibration errors.
 6. 30-minute horizon only; longer horizons degrade rapidly.
 
 ---
